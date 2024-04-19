@@ -2,9 +2,8 @@ on: push
 jobs:
   py-node:
     runs-on: ubuntu-latest
-    container: node:16
+    container: python:3.9-slim
     steps:
-      - run: node --version
-      - run: npm --version
+      - run: python --version
       - uses: actions/checkout@v3
-      - run: node app.js
+      - run: python archivo.py
