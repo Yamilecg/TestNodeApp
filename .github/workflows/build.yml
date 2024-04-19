@@ -1,0 +1,9 @@
+on: push
+jobs:
+  py-node:
+    runs-on: ubuntu-latest
+    container: python:3.8
+    steps:
+      - uses: actions/checkout@v4
+      - run: pyhton3 --version
+      - run: python3 archivo.py
