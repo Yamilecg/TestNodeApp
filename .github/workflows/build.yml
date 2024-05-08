@@ -7,4 +7,23 @@ jobs:
       - run: node --version
       - run: npm --version
       - uses: actions/checkout@v3
-      - run: node archivo.py
+
+      - name: nombre
+        run: echo "Yamile Álvarez García"
+      
+      - name: Verificar versión de Node
+        run: node --version
+      
+      - name: expediente
+        run: echo "738359"
+     
+
+
+   
+
+
+
+
+    
+
+  
